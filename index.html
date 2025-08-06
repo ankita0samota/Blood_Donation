@@ -1,0 +1,339 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>B4L-Blood For Life</title>
+    <style>
+        .navbar{
+            background-color:purple;
+            border-radius: 24px;
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li{
+            float:left;
+            list-style: none;
+            margin: 10px 68px
+        }
+        .navbar li a{
+            padding: 3px 3px;
+            text-decoration: none;
+            color:white;
+        }
+
+        .navbar input{
+            border: 2px solid black;
+            border-radius: 4px;
+            padding:3px;
+        }
+        .logo{
+        psition: absolute;
+        top: 0px;
+        left: 0px;
+        }
+
+    </style>
+</head>
+<body><h1 style="font-size:60px;color:black;font-family:arial;text-align:center;">Blood Donation Campaign</h1>
+<h3>bloodbank.com<br>A Social Initiative</h3>
+<center>
+    <form action="login.php" method="post">
+        <table>
+            <tr1>
+                <td>
+                    <td1>DonarLogin:</td1>
+                    <input type="text" name="user">
+                    <td2>Password:</td2>
+                    <input type="password" name="user_pass">
+                    <input type="submit" name="submit" value="Login">
+                </td>
+            </tr1>
+        </table>
+
+    </form>
+<div>
+    <span class="logo">
+        <img src=""
+    </span>
+</div>
+
+</center>
+<header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Register</a></li>
+            <li><a href="#">Why donate blood</a></li>
+            <li><a href="#">Who can donate blood</a></li>
+            <li><a href="#">Refer a friend</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+<left>
+    <form action="login.php" method="post">
+        <table cellspacing="13" cellpadding="25" width="500">
+            <tr>
+                <td>State:</td>
+                <td>
+                    <input type="text" name="state">
+                </td>
+            </tr>
+            <image src="https://t1.thpservices.com/previewimage/gallil/63c323439bfd4c086bb9fbebdf1ca48d/esy-049561256.jpg"height="360" width="450" align="right"></image>
+
+            <tr>
+                <td>City:</td>
+                <td>
+                    <input type="text" name="city">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Area:</td>
+                <td>
+                    <input type="text" name="area">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Group:</td>
+                <td>
+                    <input type="text" name="group">
+                </td>
+            </tr>
+        </table>
+    </form>
+</left>
+<div class="search">
+                <input type="text" name="search" id="searches" placeholder="search">
+            </div>
+<hr>
+<p><h2>DONATION PROCESS</h2>
+<h3>Health History</h3>
+<ul>
+    <li>You’ll answer a few questions about your health history and places you’ve traveled, during a private and confidential interview.</li>
+<li>You’ll tell us about any prescription and/or over the counter medications that may be in your system.</li>
+<li>We’ll check your temperature, pulse, blood pressure and hemoglobin level.</li> </ul>
+<h3>Your Donation</h3>
+<ul>
+    <li>If you’re donating whole blood, we’ll cleanse an area on your arm and insert a brand new sterile needle for the blood draw. (This feels like a quick pinch and is over in seconds.)</li>
+<li>Other types of donations, such as platelets, are made using an apheresis machine which will be connected to both arms.</li>
+<li>A whole blood donation takes about 8-10 minutes, during which you’ll be seated comfortably or lying down.</li>
+<li>When approximately a pint of whole blood has been collected, the donation is complete and a staff person will place a bandage on your arm.</li>
+<li>For platelets, the apheresis machine will collect a small amount of blood, remove the platelets, and return the rest of the blood through your other arm;<br> this cycle will be repeated several times over about 2 hours. </li>
+</ul></p>
+<table>
+    <tr>
+                <td>Where would you like to donate:</td>
+                <td>
+                    <input type="text" name="group">
+        <div class="search">
+                <input type="text" name="search" id="search" placeholder="search">
+            </div>
+        </td>
+            </tr>
+</table>
+<table>
+    <tr>
+                <td>Give us feedback</td>
+                <td>
+                    <input type="text" name="area">
+                </td>
+            </tr>
+</table>
+
+</body>
+</html>      -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>B4L - Blood For Life</title>
+    <style>
+      .navbar {
+        background-color: rgb(116, 185, 239);
+        border-radius: 24px;
+      }
+      .navbar ul {
+        overflow: auto;
+        margin: 0;
+        padding: 0;
+      }
+      .navbar li {
+        float: left;
+        list-style: none;
+        margin: 10px 68px;
+      }
+      .navbar li a {
+        padding: 3px 3px;
+        text-decoration: none;
+        color: white;
+      }
+      .navbar input {
+        border: 2px solid black;
+        border-radius: 4px;
+        padding: 3px;
+      }
+      .logo {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+      }
+      .search {
+        margin: 20px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1
+      style="
+        font-size: 60px;
+        color: rgb(243, 111, 111);
+        font-family: Arial;
+        text-align: center;
+      "
+    >
+      Blood Donation Campaign
+    </h1>
+    <h3 style="text-align: center">bloodbank.com<br />A Social Initiative</h3>
+
+    <div style="text-align: center">
+      <form action="login.php" method="post">
+        <table style="margin: auto">
+          <tr>
+            <td>Donor Login:</td>
+            <td><input type="text" name="user" /></td>
+          </tr>
+          <tr>
+            <td>Password:</td>
+            <td><input type="password" name="user_pass" /></td>
+          </tr>
+          <tr>
+            <td colspan="2" style="text-align: center">
+              <input type="submit" name="submit" value="Login" />
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+
+    <div class="logo">
+      <img
+        src="data:image/png;base64,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"
+        height="100"
+        alt="Logo"
+      />
+    </div>
+
+    <header>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#">Register</a></li>
+          <li><a href="#">Why donate blood</a></li>
+          <li><a href="#">Who can donate blood</a></li>
+          <li><a href="#">Refer a friend</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <form action="login.php" method="post">
+      <table cellspacing="13" cellpadding="25" width="500">
+        <tr>
+          <td>State:</td>
+          <td><input type="text" name="state" /></td>
+        </tr>
+        <tr>
+          <td>City:</td>
+          <td><input type="text" name="city" /></td>
+        </tr>
+        <tr>
+          <td>Area:</td>
+          <td><input type="text" name="area" /></td>
+        </tr>
+        <tr>
+          <td>Group:</td>
+          <td><input type="text" name="group" /></td>
+        </tr>
+      </table>
+    </form>
+
+    <img
+      src="data:image/png;base64,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"
+      height="300"
+      align="right"
+      alt="Donation Image"
+    />
+
+    <div class="search">
+      <input type="text" name="search" id="searches" placeholder="Search" />
+    </div>
+
+    <hr />
+
+    <h2>Donation Process</h2>
+
+    <h3>Health History</h3>
+    <ul>
+      <li>
+        You’ll answer a few questions about your health history and places
+        you’ve traveled, during a private and confidential interview.
+      </li>
+      <li>
+        You’ll tell us about any prescription and/or over the counter
+        medications that may be in your system.
+      </li>
+      <li>
+        We’ll check your temperature, pulse, blood pressure and hemoglobin
+        level.
+      </li>
+    </ul>
+
+    <h3>Your Donation</h3>
+    <ul>
+      <li>
+        If you’re donating whole blood, we’ll cleanse an area on your arm and
+        insert a brand new sterile needle for the blood draw.
+      </li>
+      <li>
+        Other types of donations, such as platelets, are made using an apheresis
+        machine connected to both arms.
+      </li>
+      <li>A whole blood donation takes about 8-10 minutes.</li>
+      <li>
+        When approximately a pint of blood has been collected, the donation is
+        complete and a staff person will place a bandage on your arm.
+      </li>
+      <li>
+        For platelets, the machine collects blood, removes platelets, and
+        returns the rest; this takes about 2 hours.
+      </li>
+    </ul>
+
+    <form>
+      <table>
+        <tr>
+          <td>Where would you like to donate:</td>
+          <td>
+            <input type="text" name="donate_place" />
+            <div class="search">
+              <input
+                type="text"
+                name="search_location"
+                placeholder="Search location"
+              />
+            </div>
+          </td>
+        </tr>
+      </table>
+
+      <table>
+        <tr>
+          <td>Give us feedback:</td>
+          <td><input type="text" name="feedback" /></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
